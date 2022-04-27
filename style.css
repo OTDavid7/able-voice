@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34, 31, 31);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+
+
+.head {
+    background-color: rgb(121, 121, 252);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+}
+
+p {
+    color: blue;
+}
+
+.heading {
+    color: white;
+    padding-left: 2%;
+    /* background-color: aqua; */
+}
+
+.nav_top {
+    float: right;   
+    padding-bottom: 20px;
+       
+}
+
+#nav-top {
+    margin-top: -30px;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    color: black;
+     
+    
+}
+
+a {
+   text-decoration: none;
+   
+}
+
+.link_text
+{
+    color: rgb(246, 254, 255);
+}
+
+.social_image {
+    float: right;
+    margin-right: -350px;
+         
+}
+
+.socialimage {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.front_page {
+    background-color: rgb(213, 219, 255);
+    border-radius: 10px;
+}
+
+.website_template {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.web_temp_text {
+    color: rgb(38, 10, 75);
+}
+
+button {
+    width: 100px;
+    color:   rgb(213, 219, 255);
+    background-color: rgb(66, 148, 202);
+    border-radius: 12px;
+}
+button:hover {
+    color: gold;
+}
+video {
+    float: right;
+    margin-top: -220px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    width: 50%;
+    height:200px ;
+}
+
+
+.second_page {
+    background-color: rgb(121, 121, 252);
+    border-radius: 10px;
+    padding-top: 1%;
+}
+
+p {
+    color: white;
+    
+}
+.img-pages {
+    /* width: 70%; */
+    height: 200px;
+    width: 100%;
+    border-radius: 5px
+}
+
+.newstd {
+    padding: 10px;
+}
+
+
+.footend {
+    text-align: center;
+    background-color: rgb(5, 11, 49);
+    border-radius: 10px;
+    color:rgb(255, 123, 0);
+    
+}
+
+.pagelink {
+    color: white;
+}
+
+.copyright {
+    color: rgb(123, 123, 207);
+
+}
+
+
+
+.row {
+    margin: 10px;
+    padding: 2%;
+    
+}
+
+.third-page {
+    background-color: rgb(5, 11, 49);
+    border-radius: 10px;
+    padding-top: 0;
+}
+
+
+/* Styles for phones */
+
+@media only screen and (max-width: 768px) {
+   
+    .head {        
+        height: 320px;
+        padding-left: 10px;
+    
+    }
+  
+
+
+.nav_top {
+    float: left;   
+    padding-bottom: 20px;
+    margin-top: 30px;
+    
+       
+}
+
+li {
+    display: block;    
+     
+}
+   
+.social_image {
+        
+    margin-top: 10px;
+    float: left;
+    }
+
+
+    .front_page {
+        background-color: rgb(213, 219, 255);
+        border-radius: 10px;
+        height: 520px;
+
+    }
+
+/* 
+    button {
+        width: 100px;
+        color:  rgb(255, 123, 0);
+        background-color: black;
+        border-radius: 100px;
+        padding-top: -10px;
+        
+    } */
+
+    button {
+        width: 100px;
+        color:   rgb(213, 219, 255);
+        background-color: rgb(66, 148, 202);
+        border-radius: 12px;
+    }
+    button:hover {
+        color: gold;
+    }
+
+    video {
+         float: left; 
+        margin-top: 0px;
+        padding: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        height: 200px;
+        
+        
+
+    }
+
+   
+    
+}
